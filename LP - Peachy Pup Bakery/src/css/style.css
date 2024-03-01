@@ -157,7 +157,7 @@ header::after {
 
 .header-links {
   width: 20%;
-  height: 120px;
+  height: 150px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -168,7 +168,7 @@ header::after {
 }
 
 .header-links a img {
-  width: 18px;
+  width: 27px;
   margin-right: 22px;
 }
 
