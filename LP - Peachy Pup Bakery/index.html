@@ -5,6 +5,8 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>LP - Peachy Pup Bakery</title>
+      <meta name="description"
+            content="Na Peachy Pup Bakery, oferecemos delícias artesanais e saudáveis para o seu cão. Nossos produtos são feitos com ingredientes de alta qualidade, sem conservantes artificiais. De biscoitos a guloseimas gourmet, cada mordida é uma celebração de amor e alegria para seu fiel amigo peludo.">
       <link rel="stylesheet" href="src/css/style.css">
 </head>
 
@@ -22,7 +24,7 @@
                               been the industry's standard dummy text ever since the
                         </p>
 
-                        <button class="btn">
+                        <button class="btn" aria-label="SEE MORE">
                               <a href="#">SEE MORE</a>
                         </button>
                   </div>
@@ -54,20 +56,24 @@
                   </div>
                   <div class="work-cards">
                         <div class="work-card">
-                              <img src="./assets/image/work-card-one.svg" alt="">
+                              <img src="./assets/image/work-card-one.svg"
+                                    alt="Imagem do card mostrando uma cesta com pães">
                         </div>
                         <div class="work-card">
-                              <img src="./assets/image/work-card-two.svg" alt="">
+                              <img src="./assets/image/work-card-two.svg"
+                                    alt="Imagem do card mostrando uma cesta com bolos">
                         </div>
                         <div class="work-card">
-                              <img src="./assets/image/work-card-three.svg" alt="">
+                              <img src="./assets/image/work-card-three.svg"
+                                    alt="Imagem do card mostrando uma cesta com doces">
                         </div>
                         <div class="work-card">
-                              <img src="./assets/image/work-card-four.svg" alt="">
+                              <img src="./assets/image/work-card-four.svg"
+                                    alt="Imagem do card mostrando uma cesta com varios bolos">
                         </div>
                   </div>
                   <div class="work-btn">
-                        <button class="btn">
+                        <button class="btn" aria-label="SEE MORE">
                               <a href="#">SEE MORE</a>
                         </button>
                   </div>
@@ -90,12 +96,13 @@
                               recently with desktop publishing software like Aldus PageMaker including versions of Lorem
                               Ipsum.</p>
 
-                        <button class="btn">
+                        <button class="btn" aria-label="SEE MORE">
                               <a href="#">SEE MORE</a>
                         </button>
                   </div>
                   <div class="about-img">
-                        <img src="./assets/image/about-card.svg" alt="">
+                        <img src="./assets/image/about-card.svg"
+                              alt="Imagem de um padeiro segurando um rolo de masse em frente a uma mesa">
                   </div>
             </div>
       </section>
@@ -140,9 +147,10 @@
                               </div>
                         </div>
                   </div>
-                  <button class="btn">
+                  <button class="btn" aria-label="Contact Us">
                         <a href="#">CONTACT US</a>
                   </button>
+
             </div>
       </section>
 
@@ -211,7 +219,7 @@
                         </div>
                   </div>
 
-                  <button class="btn">
+                  <button class="btn" aria-label="Contact Us">
                         <a href="#">CONTACT US</a>
                   </button>
             </div>
@@ -221,12 +229,21 @@
             <div class="container contact-container">
                   <h2>CONTACT US</h2>
                   <div class="contact-columns">
-                        <div class="contact-form">
-                              <input type="text">
-                              <input type="text">
-                              <input type="text">
-                              <button></button>
-                        </div>
+                        <form class="contact-form">
+                              <label for="nome">Nome:</label>
+                              <input type="text" id="nome" name="nome">
+
+                              <label for="email">Email:</label>
+                              <input type="text" id="email" name="email">
+
+                              <label for="mensagem">Mensagem:</label>
+                              <input type="text" id="mensagem" name="mensagem">
+
+                              <button type="button" class="btn" aria-label="Enviar">
+                                    <a href="#">Enviar</a>
+                              </button>
+
+                        </form>
                         <div class="contact-info">
                               <div class="info-item">
                                     <img src="./assets/icons/icon-email.svg" alt="Icone do gmail">
