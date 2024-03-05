@@ -1,5 +1,5 @@
 :root {
-  --primary-bg-color: #C98650;
+  --primary-bg-color: #c98a40;
   --primary-bg-color-btn: #fdba10;
   --primary-bg-color-input: #ffd39f;
   --primary-bg-color-white: #fff;
@@ -12,32 +12,26 @@
   font-family: "Sen-ExtraBold";
   src: url(../../assets/fonts/Sen-800.woff2);
 }
-
 @font-face {
   font-family: "Poppins-Light";
   src: url(../../assets/fonts/Poppins-300.woff2);
 }
-
 @font-face {
   font-family: "Poppins-Regular";
   src: url(../../assets/fonts/Poppins-400.woff2);
 }
-
 @font-face {
   font-family: "Poppins-Medium";
   src: url(../../assets/fonts/Poppins-500.woff2);
 }
-
 @font-face {
   font-family: "Poppins-SemiBold";
   src: url(../../assets/fonts/Poppins-600.woff2);
 }
-
 @font-face {
   font-family: "Poppins-Bold";
   src: url(../../assets/fonts/Poppins-900.woff2);
 }
-
 /* General style */
 * {
   box-sizing: border-box;
@@ -71,7 +65,7 @@ header::after {
   content: "";
   width: 80%;
   height: 100vh;
-  background-image: url(../../assets/image/mask-bread-right.webp);
+  background-image: url(../../assets/image/mask-bread-right.svg);
   background-size: cover;
   position: absolute;
   top: 0;
@@ -98,9 +92,7 @@ header::after {
 }
 
 .logo {
-  width: 203px;
-  height: 60px;
-  margin-top: 20px;
+  width: 180px;
 }
 
 .header-body {
@@ -109,7 +101,6 @@ header::after {
   z-index: 100;
   position: relative;
 }
-
 .header-body h1 {
   font-family: "Sen-ExtraBold", sans-serif;
   font-size: 3rem;
@@ -117,7 +108,6 @@ header::after {
   margin: 0;
   margin-top: 20vh;
 }
-
 .header-body p {
   font-family: "Poppins-Medium", sans-serif;
   font-weight: 500;
@@ -135,7 +125,6 @@ header::after {
   z-index: 2;
   position: relative;
 }
-
 .btn a {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 900;
@@ -157,18 +146,18 @@ header::after {
 
 .header-links {
   width: 20%;
-  height: 150px;
+  height: 120px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   background: #fff;
-  background-image: url(../../assets/image/mask-bread-left.webp);
+  background-image: url(../../assets/image/mask-bread-left.svg);
   background-size: cover;
 }
 
 .header-links a img {
-  width: 27px;
+  width: 18px;
   margin-right: 22px;
 }
 
@@ -178,7 +167,6 @@ header::after {
   padding-left: 20px;
   width: 992px;
 }
-
 .header-tell p {
   color: var(--primary-bg-color-white);
   font-family: "Poppins-Medium", sans-serif;
@@ -196,7 +184,7 @@ header::after {
   width: 40%;
   height: 100%;
   background-color: var(--primary-bg-color-white);
-  background-image: url(../../assets/image/work-bg.webp);
+  background-image: url(../../assets/image/work-bg.svg);
   position: absolute;
   left: 0;
   z-index: 1;
@@ -212,7 +200,6 @@ header::after {
   position: relative;
   margin-top: 20px;
 }
-
 .work-title h2 {
   font-family: "Sen-ExtraBold", sans-serif;
   font-size: 3rem;
@@ -222,7 +209,6 @@ header::after {
   margin: 0;
   margin-bottom: 20px;
 }
-
 .work-title p {
   width: 240px;
   font-size: 1rem;
@@ -238,7 +224,6 @@ header::after {
 .work-card {
   margin-right: 40px;
 }
-
 .work-card img {
   width: 100%;
 }
@@ -269,7 +254,6 @@ header::after {
 .about-title {
   margin-top: 20px;
 }
-
 .about-title h2 {
   font-family: "Sen-ExtraBold", sans-serif;
   font-size: 3rem;
@@ -279,7 +263,6 @@ header::after {
   line-height: 0.9;
   text-align: start;
 }
-
 .about-title p {
   width: 400px;
   font-family: "Poppins-Light", sans-serif;
@@ -302,7 +285,6 @@ header::after {
   text-align: center;
   height: 100%;
 }
-
 .services-container h2 {
   font-family: "Sen-ExtraBold", sans-serif;
   font-size: 3rem;
@@ -321,23 +303,19 @@ header::after {
   border-radius: 30px;
   margin: 20px;
 }
-
 .card-service img {
   width: 100%;
 }
-
 .card-service div {
   text-align: start;
   padding: 20px;
 }
-
 .card-service div h3 {
   font-family: "Poppins-Black", sans-serif;
   font-size: 0.9rem;
   margin: 0;
   color: var(--primary-bg-color);
 }
-
 .card-service div p {
   font-family: "Poppins-Regular", sans-serif;
   font-weight: 400;
@@ -346,7 +324,7 @@ header::after {
 
 /* --------------> testimonials */
 .testimonials {
-  background-image: url(../../assets/image/mask-testimonials-bg.webp);
+  background-image: url(../../assets/image/mask-testimonials-bg.svg);
   background-size: cover;
   padding: 50px 0;
   height: 100%;
@@ -356,7 +334,6 @@ header::after {
   text-align: center;
   color: var(--primary-bg-color-white);
 }
-
 .testimonial-container h2 {
   font-family: "Sen-ExtraBold", sans-serif;
   font-size: 3rem;
@@ -365,7 +342,6 @@ header::after {
   padding: 0;
   line-height: 0.9;
 }
-
 .testimonial-container .btn {
   margin-top: 20px;
 }
@@ -384,13 +360,11 @@ header::after {
   border-radius: 30px;
   margin: 20px;
 }
-
 .testimonial-card h3 {
   color: var(--primary-bg-color);
   font-family: "Poppins-Medium", sans-serif;
   font-size: 0.8rem;
 }
-
 .testimonial-card p {
   color: var(--primary-bg-color-black);
   font-size: 0.8rem;
@@ -406,7 +380,6 @@ header::after {
   height: 100%;
   padding: 50px 0;
 }
-
 .contact-container h2 {
   font-family: "Sen-ExtraBold", sans-serif;
   font-size: 3rem;
@@ -430,7 +403,6 @@ header::after {
   justify-content: center;
   width: 100%;
 }
-
 .contact-form input {
   width: 364px;
   height: 46px;
@@ -439,7 +411,6 @@ header::after {
   border: none;
   margin-bottom: 14px;
 }
-
 .contact-form button {
   width: 164px;
   height: 46px;
@@ -460,7 +431,6 @@ header::after {
   display: flex;
   align-items: center;
 }
-
 .info-item p {
   margin-left: 20px;
   font-size: 0.8rem;
@@ -473,7 +443,6 @@ footer {
   background: var(--primary-bg-color-brown);
   color: var(--primary-bg-color-white);
 }
-
 footer .container {
   width: 100%;
   height: 20vh;
@@ -493,7 +462,6 @@ footer .container {
     z-index: 2;
     position: relative;
   }
-
   .btn a {
     font-family: "Poppins-Bold", sans-serif;
     font-weight: 900;
@@ -504,7 +472,6 @@ footer .container {
     text-decoration: none;
   }
 }
-
 @media only screen and (max-width: 868px) {
   .btn {
     background: var(--primary-bg-color-btn);
@@ -515,7 +482,6 @@ footer .container {
     z-index: 2;
     position: relative;
   }
-
   .btn a {
     font-family: "Poppins-Bold", sans-serif;
     font-weight: 900;
@@ -525,70 +491,55 @@ footer .container {
     list-style: none;
     text-decoration: none;
   }
-
   header::after {
     display: none;
   }
-
   .header-body {
     text-align: center;
     max-width: 100%;
   }
-
   .header-body p {
     margin: 0;
     max-width: 100%;
     padding: 20px 0;
   }
-
   .container {
     max-width: 100%;
     width: 100%;
   }
-
   /* --------------> Work */
   .work-title h2 {
     font-size: 3rem;
   }
-
   .work-title p {
     font-size: 0.7rem;
   }
-
   .work-card {
     margin: 10px;
   }
-
   .work-card:last-child {
     margin: 10px;
   }
-
   /* --------------> About */
   .about {
     padding: 20px;
   }
-
   .about-container {
     display: flex;
   }
-
   .about-title h2 {
     font-size: 3rem;
   }
-
   .about-title h2 br {
     display: none;
   }
-
   .about-img img {
     width: 100%;
   }
-
   /* --------------> testimonials */
   .services-container h2 {
     font-size: 3rem;
   }
-
   .testimonial-container {
     display: flex;
     flex-direction: column;
@@ -596,28 +547,23 @@ footer .container {
     justify-content: center;
     padding: 20px;
   }
-
   .testimonial-container h2 {
     font-size: 3rem;
   }
-
   .testimonial-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .testimonial-card {
     margin: 0;
     margin-bottom: 20px;
     width: 100%;
   }
-
   /* --------------> contact */
   .contact-container h2 {
     font-size: 3rem;
   }
-
   .contact-info {
     width: 100%;
     padding-left: 0;
@@ -625,18 +571,15 @@ footer .container {
     flex-direction: column;
     justify-content: center;
   }
-
   .contact-columns {
     display: flex;
     padding-top: 0;
     flex-direction: column;
     align-items: center;
   }
-
   .contact-info {
     width: 350px;
   }
-
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -645,7 +588,6 @@ footer .container {
     width: 100%;
     margin-bottom: 20px;
   }
-
   /* --------------> footer */
   footer {
     display: flex;
@@ -653,7 +595,6 @@ footer .container {
     background: var(--primary-bg-color-brown);
     color: var(--primary-bg-color-white);
   }
-
   footer .container {
     width: 100%;
     height: 100%;
@@ -665,13 +606,11 @@ footer .container {
     text-align: center;
   }
 }
-
 @media only screen and (max-width: 652px) {
   .work-title {
     display: flex;
     flex-direction: column;
   }
-
   .work-title p {
     color: var(--primary-bg-color-white);
     max-width: 100%;
@@ -679,128 +618,101 @@ footer .container {
     text-align: center;
     font-size: 1rem;
   }
-
   .work::after {
     content: "";
     width: 100%;
     height: 50%;
     background-color: var(--primary-bg-color-white);
-    background-image: url(../../assets/image/work-bg.webp);
+    background-image: url(../../assets/image/work-bg.svg);
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: 1;
   }
-
   .work-cards {
     display: flex;
     flex-direction: column;
   }
-
   /* --------------> About */
   .about-container {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .about-title h2 {
     font-size: 3rem;
   }
-
   .about-title h2 br {
     display: none;
   }
-
   .about-title p {
     font-size: 0.9rem;
     width: 100%;
   }
-
   .about-img {
     margin-top: 50px;
     text-align: center;
   }
-
   .about-img img {
     width: 100%;
   }
-
   /* --------------> services */
   .services-container h2 {
     font-size: 3rem;
   }
-
   .cards-services {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .testimonial-container h2 {
     font-size: 2rem;
   }
-
   .testimonial-container h2 {
     font-size: 3rem;
   }
 }
-
 @media only screen and (max-width: 440px) {
   .header-body {
     text-align: center;
   }
-
   .header-body h1 {
     font-size: 2rem;
     margin-top: 20vh;
   }
-
   .header-body p {
     font-size: 1rem;
     padding: 20px 0;
   }
-
   .work-title h2 {
     text-align: center;
     font-size: 2rem;
   }
-
   .work-cards {
     display: flex;
     flex-direction: column;
   }
-
   .about-title h2 {
     font-size: 2rem;
   }
-
   .about-title p {
     width: 100%;
   }
-
   /* --------------> services */
   .services-container h2 {
     font-size: 2rem;
   }
-
   .contact-container {
     margin: 20px;
   }
-
   .contact-form input {
     width: 100%;
   }
-
   .contact-info {
     width: 100%;
   }
-
   .testimonial-container h2 {
     font-size: 2rem;
   }
-
   .contact-container h2 {
     font-size: 2rem;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
